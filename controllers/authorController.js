@@ -2,7 +2,7 @@ const Author = require('../models/author');
 
 // Display list of all Authors.
 exports.author_list = function(req, res) {
-    res.send('Author:Sindhuja Valeti');
+    res.send('Author Name: Sindhuja Valeti');
 };
 
 // Display detail page for a specific Author.
